@@ -1,0 +1,34 @@
+# 🔹 Python (бекенд)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+.env.*
+
+# 🔹 Node.js (фронтенд - Next.js)
+node_modules/
+.next/
+out/
+dist/
+*.log
+
+# 🔹 PostgreSQL
+*.sqlite
+*.db
+pgdata/
+dump.sql
+
+# 🔹 Docker (якщо використовуєте)
+docker-compose.override.yml
+docker-data/
+*.pid
+
+# 🔹 IDE/редактори (VS Code, JetBrains)
+.vscode/
+.idea/
+*.iml
+
+# 🔹 Операційні системи
+.DS_Store
+Thumbs.db
